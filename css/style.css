@@ -6,6 +6,11 @@
   --text-secondary: #F3F3F3;
 }
 
+body {
+  background-color: var(--primary);
+  color: var(--text-secondary);
+}
+
 header {
   margin-left: 0px;
 }
@@ -37,14 +42,24 @@ nav .nav-link:hover {
   background-color: var(--primary);
 }
 
-body {
-  background-color: var(--primary);
+nav .nav-link.active {
   color: var(--text-secondary);
+}
+
+.content {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#carouselHome img {
+  border-radius: 25%;
+  border: 2px solid var(--text-primary);
 }
 
 footer {
   background-color: var(--tertiary);
   color: var(--secondary);
+  padding-left: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
